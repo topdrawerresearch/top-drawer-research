@@ -1,0 +1,30 @@
+/* visual aesthetics styling */
+
+body {
+  height: 2800px; /* Used to enable scrolling */
+  background: linear-gradient(0deg, #f96060 10%, #9bff8e 60%, #97c2ff 90%);
+}
+
+
+/* nav-links styling */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    background: white;
+    margin: 20px 20px 0px 1192px;
+    padding: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: red;
+    background: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+}
