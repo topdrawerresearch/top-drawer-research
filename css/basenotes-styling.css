@@ -1,0 +1,101 @@
+/* visual aesthetics styling */
+
+body {
+    
+    background-color: red;
+}
+
+h1 {
+    background: blue;
+    margin: 10px 880px 0px 10px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px 25px;
+}
+  
+
+p {
+    background: blue;
+    margin: 10px 10px 10px 25px;
+    padding: 10px;
+}
+
+.follow-p {
+    margin: 10px 10px 20px 25px;
+}
+
+.bulletin {
+    background: white;
+    margin: 40px 20px;
+    padding: 10px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post {
+    font-size: 1.3rem;
+    margin: 20px;
+    background: green;
+}
+
+
+/* nav-links styling */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    background: white;
+    margin: 20px 20px 0px 1192px;
+    padding: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: red;
+    background: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+}
+
+
+/* hidden text function */
+
+ .hidden { 
+    opacity: 0; 
+    
+}
+.hideable { 
+    cursor: pointer; 
+} 
+
+
+/*  meant to be under general body 
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: change-color 5s infinite alternate; 
+    opacity: 100%;
+}
+
+ @keyframes change-color {
+    0% {
+        background-color: gray;
+    }
+    50%{
+        background-color: grey;
+    }
+    100% {
+        background-image: url("../images/fmnver2.png");
+    }
+} */
