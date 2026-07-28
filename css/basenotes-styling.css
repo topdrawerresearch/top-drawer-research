@@ -2,28 +2,32 @@
 
 body {
     
-    background-color: red;
+    background-color: white;
 }
 
 h1 {
-    background: blue;
+    background: white;
+    color:white;
     margin: 10px 880px 0px 10px;
     padding: 10px;
 }
 
 h2 {
     margin: 10px 25px;
+    color: white;
 }
   
 
 p {
-    background: blue;
+    background: white;
+    color: white;
     margin: 10px 10px 10px 25px;
     padding: 10px;
 }
 
 .follow-p {
     margin: 10px 10px 20px 25px;
+    color: white;
 }
 
 .bulletin {
@@ -40,7 +44,7 @@ p {
 .post {
     font-size: 1.3rem;
     margin: 20px;
-    background: green;
+    background: white;
 }
 
 
@@ -59,7 +63,7 @@ p {
 }
 
 .nav-links a {
-    color: red;
+    color: white;
     background: white;
     text-decoration: none;
     font-size: 18px;

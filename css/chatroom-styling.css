@@ -1,10 +1,51 @@
 /* visual aesthetics styling */
 
 body {
-  height: 2800px; /* Used to enable scrolling */
-  background: linear-gradient(0deg, #f96060 10%, #9bff8e 60%, #97c2ff 90%);
+  background: red;
 }
 
+/*
+h2 {
+    background: blue;
+}
+
+/* puzzle setup visuals */
+
+.chatroom {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 4, 1fr;
+    gap: 5px;
+    height: 550px;
+    background-color: purple;
+    margin: 50px;
+    padding: 15px;
+}
+
+.puzzle-side {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.main-chat {
+    background-color: white;
+    grid-column: 2;
+    grid-row: 1/5;
+}
+
+.puzzle1 {
+    background-color: rgb(255, 138, 138);
+}
+
+.puzzle2 {
+    background-color: rgb(154, 255, 162);
+}
+
+.puzzle3 {
+    background-color: rgb(150, 150, 255);
+}
 
 /* nav-links styling */
 
