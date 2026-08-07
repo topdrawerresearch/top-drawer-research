@@ -1,50 +1,129 @@
 /* visual aesthetics styling */
 
 body {
-  background: red;
+  background: #EFDCC8; 
 }
 
-/*
-h2 {
-    background: blue;
+
+h1 {
+    color: #9d580e;
+    margin-left: 40px;
 }
 
-/* puzzle setup visuals */
+.intro {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.2rem;
+}
+
+
+/* Puzzle chat setup */
 
 .chatroom {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 4, 1fr;
-    gap: 5px;
-    height: 550px;
-    background-color: purple;
+    background-color: #e8c59e; 
     margin: 50px;
-    padding: 15px;
-}
-
-.puzzle-side {
-    background-color: white;
-    color: black;
     padding: 10px;
-    border-radius: 4px;
-}
-
-.main-chat {
-    background-color: white;
-    grid-column: 2;
-    grid-row: 1/5;
 }
 
 .puzzle1 {
     background-color: rgb(255, 138, 138);
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .puzzle2 {
     background-color: rgb(154, 255, 162);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .puzzle3 {
     background-color: rgb(150, 150, 255);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.chat-background {
+    background-color: whitesmoke;
+    margin: 4px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 30px;
+}
+
+.bubble1 {
+    background-color: rgb(65, 147, 246);
+    position: relative;
+    border-radius: .4em;
+    padding: 10px;
+    margin-right: 350px;
+    font-size: 1.2rem;
+}
+
+.bubble1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 24px solid transparent;
+    border-right-color: rgb(65, 147, 246);
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px; 
+    margin-left: -22px;
+}
+
+.bubble2 {
+    background-color: rgb(130, 94, 226);
+    position: relative;
+    border-radius: .4em;
+    padding: 10px;
+    text-align: center;
+    margin-left: 625px;
+    font-size: 1.2rem;
+}
+
+.bubble2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 24px solid transparent;
+	border-left-color: rgb(130, 94, 226);
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -22px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.note {
+    background-color: palegoldenrod;
+    padding: 30px;
+    margin: 20px;
+    margin-right: 350px; 
+    margin-left: 350px;
+    font-size: 1.1rem;
+    
+}
+
+.button {
+    background-color: rgb(184, 173, 255);
+    border-radius: .4rem;
+    padding: 15px;
+
+}
+
+.image-align {
+    align-items: center;
 }
 
 /* nav-links styling */
@@ -62,7 +141,7 @@ h2 {
 }
 
 .nav-links a {
-    color: red;
+    color: #9d580e;
     background: white;
     text-decoration: none;
     font-size: 18px;

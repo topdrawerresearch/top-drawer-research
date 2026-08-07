@@ -27,52 +27,84 @@
     </nav>
 
 
-    <h2>Research Note:</h2>
-    <p>I found these three messaging snippets while searching through the Scratch! One of them actually hit me in the
-        head a bit, so I collected them along with the other messenges I saw. I'm hoping they'll help me escape!</p>
+    <h1>Chatroom Mysteries</h1>
+    <p class="intro">I found these three messaging snippets while searching through the Scratch! One of them actually hit me in the
+        head a bit (ow), so I collected them along with the other messenges I saw. <br> I'm hoping they'll help me escape!</p>
 
     <!-- first image/number for lock-->
 
     <div class="chatroom">
 
-        <div class="puzzle-side puzzle1">
+<h></h>
 
-            <h2>I found...</h2>
-            <button>Click me for 1</button>
+        <div class="puzzle1">
 
-            <!-- answer is 5?-->
-        </div>
+            <button onclick="myFunction()" class="button">New Message: I found...</button>
+            <!-- 5-->
 
-        <!-- second image/number for lock-->
+            <div id="myDIV" class="chat-background" style="display:none">
+                <img src="images/chairs1.png" alt="Arrangement of chairs" width="400" height="" class="bubble1">
+                <p class="bubble1">I found these chairs online. Maybe we could model them for the room?</p>
+                <p class="bubble2">Sure.</p>
+            </div>
 
-        <div class="puzzle-side puzzle2">
-            <h2>Check out this...</h2>
-            <button>Click me for 2</button>
 
-            <!-- answer is seventy eight-->
-        </div>
-
-        <!-- third image/number for lock-->
-        <div class="puzzle-side puzzle3">
-            <h2>I'll send it to...</h2>
-            <button> Click me for 3</button>
-        </div>
-
-        <div class="main-chat">
-            <h2>Main Chat</h2>
-            <div>
-                <p> Click on your chats to open them.
+            <div class="note">
+            <p class="bubble">I found this similar image online. Perhaps I could use this to figure out
+                something?
+            </p>
+            <img src="images/chairs2.png" alt="chairs in a column" width="650" height="" class="image-align">
             </div>
         </div>
 
-        <div class="main-chat puzzlebtn1">
-            <p>I found this similar image online. Perhaps I could use it to figure out something?</p>
-            <p>I found these chairs online. Maybe we could model them for the room?</p>
-            <p>insert image</p>
-            <p>sure</p>
+
+<div class="puzzle2">
+
+            <button onclick="myFunction2()" class="button">New Message: Check out...</button>
+
+            <!-- 1 7 -->
+
+            <div id="myDIV2" class="chat-background" style="display:none">
+                <img src="images/wordpuzzle.png" alt="Arrangement of chairs" width="350" height="" class="bubble1">
+                <p class="bubble1">Check out this font I found! We could use it for the project.</p>
+                <p class="bubble2">I like that font.</p>
+            </div>
+
+
+            <div class="note">
+            <p class="bubble">In the same text chain, I saw these 4 deleted photos. I wonder what they mean...
+            </p>
+            <img src="images/gridword.png" alt="chairs in a column" width="450" height="" class="image-align">
+            </div>
+        </div>
+
+
+         <div class="puzzle3">
+
+            <button onclick="myFunction3()" class="button">New Message: I'll send...</button>
+            <!-- ? -->
+
+            <div id="myDIV3" class="chat-background" style="display:none">
+                <p class="bubble1">I'll send it to you right now.</p>
+                <img src="images/colorwheel.png" alt="Arrangement of chairs" width="400" height="" class="bubble1">
+                <p class="bubble1">Wait, I sent the wrong file.</p>
+                <p class="bubble1 link">HWAYETRINRHOO_OMNLTESNOTCLR.blend</p>
+                <p class="bubble1">This is the right one!</p>
+            </div>
+
+
+            <div class="note">
+            <p>I thought these sent files were noteworthy. I'll need to figure out what the second one is really labeled...
+            </p>
+            </div>
         </div>
 
     </div>
+
+
+    </div>
+
+
 
     <!-- maybe make the backgrounds color match as you scroll -->
     <script src="chatroomClick.js" defer></script>
