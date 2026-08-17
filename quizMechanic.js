@@ -20,7 +20,7 @@ init();
 
 async function init() {
   try {
-    const res = await fetch("/questions.json", { cache: "no-store" });
+    const res = await fetch("questions.json", { cache: "no-store" });
     if (!res.ok) throw new Error("Could not load questions.json");
     quiz = await res.json();
 
