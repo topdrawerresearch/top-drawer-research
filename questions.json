@@ -1,0 +1,33 @@
+{
+  "title": "go down now",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are you here for?",
+      "image": "images/chairs1.png",
+      "choices": ["var", "let", "function", "const"],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "What does DOM stand for?",
+      "image": "images/chairs2.png",
+      "choices": ["Data Object Model", "Document Object Model", "Digital Order Map", "Document Order Map"],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Which method selects the first matching element?",
+      "image": "images/heart.png",
+      "choices": ["querySelector()", "querySelectorAll()", "getElementsByClassName()", "getElement()"],
+      "correctIndex": 0
+    },
+     {
+      "id": 4,
+      "question": "waht color?",
+      "image": "images/heart.png",
+      "choices": ["green", "blue", "red", "yellow"],
+      "correctIndex": 3
+    }
+  ]
+}
