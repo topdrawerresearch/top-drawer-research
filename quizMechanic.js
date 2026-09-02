@@ -145,6 +145,7 @@ function showResults() {
         </li>`;
       }).join("")}
     </ol>
+    <p>Your result is 2478.</p>
     <button class="btn" id="restartBtn" type="button">Restart</button>
   `;
 

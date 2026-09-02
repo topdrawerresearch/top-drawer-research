@@ -3,29 +3,49 @@
   "questions": [
     {
       "id": 1,
-      "question": "What goes up, must come",
-      "image": "images/passageone.jpg",
-      "choices": ["down", "even more up", "left", "right"],
+      "question": "How often will I see you?",
+      "choices": ["Very frequently!", "Very rarely!", "Every Tuesday of each week!", "Never again!"],
       "correctIndex": 1
     },
     {
       "id": 2,
-      "question": "Question 2 TBD",
-      "image": "images/passagetwo.jpg",
-      "choices": ["A", "B", "C", "D"],
-      "correctIndex": 1
+      "question": "To turn over?",
+      "choices": ["Relinquish?", "Overthrow?", "Flip?", "Apple pastry?"],
+      "correctIndex": 3
     },
     {
       "id": 3,
-      "question": "Question 3",
-      "image": "images/passagethree.jpg",
-      "choices": ["A", "B", "C", "D"],
-      "correctIndex": 0
+      "question": "There was a segment in my life where I gained a new perspective and started worrying about an excess of Ultraviolet rays.",
+      "choices": ["UUUU VVVVVVVV", "UV", "UUUUUUUU VVVV", "UUU VVVV"],
+      "correctIndex": 1
     },
      {
       "id": 4,
+      "question": "What should I say to confirm someone's knowledge?",
+      "choices": ["You get it!", "You understand!", "You figured it out!", "You got it!"],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "How wouldn't you describe the book's pages?",
+      "choices": ["Speckled.", "Edible.", "Shredded.", "Worthless."],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Why couldn't the predator hunt?",
+      "choices": ["Grew tired.", "Listened.", "Felt hopeless.", "Couldn't fly."],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
       "question": "waht color?",
-      "image": "images/passagefour.jpg",
+      "choices": ["green", "blue", "red", "yellow"],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "waht color?",
       "choices": ["green", "blue", "red", "yellow"],
       "correctIndex": 3
     }
