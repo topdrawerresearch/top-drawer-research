@@ -5,7 +5,7 @@
       "id": 1,
       "question": "How often will I see you?",
       "choices": ["Very frequently!", "Very rarely!", "Every Tuesday of each week!", "Never again!"],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       "id": 4,
       "question": "What should I say to confirm someone's knowledge?",
       "choices": ["You get it!", "You understand!", "You figured it out!", "You got it!"],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": 5,
@@ -39,15 +39,15 @@
     },
     {
       "id": 7,
-      "question": "waht color?",
-      "choices": ["green", "blue", "red", "yellow"],
+      "question": "What did I do later in the morning?",
+      "choices": ["Relaxed at home.", "Yoga.", "Got in the car.", "Go to the zoo."],
       "correctIndex": 3
     },
     {
       "id": 8,
       "question": "waht color?",
       "choices": ["green", "blue", "red", "yellow"],
-      "correctIndex": 3
+      "correctIndex": 1
     }
   ]
 }

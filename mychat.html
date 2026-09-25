@@ -26,9 +26,8 @@
     </nav>
 
 
-    <h1>Chatroom Mysteries</h1>
-    <p class="intro">I found these three messaging snippets while searching through the Scratch! One of them actually hit me in the
-        head a bit (ow), so I collected them along with the other messages I saw. <br> I'm hoping they'll help me escape!</p>
+    <h1>THREE NEW MESSAGES</h1>
+    <p class="intro">You have THREE (3) new messages. Please respond.</p>
 
     <!-- first image/number for lock-->
 
@@ -41,19 +40,21 @@
             <button onclick="myFunction()" class="button">New Message: I found...</button>
             <!-- 5-->
 
-            <div id="myDIV" class="chat-background" style="display:none">
-                <img src="images/chairs1.png" alt="Arrangement of chairs" width="400" height="" class="bubble1">
+
+        <div class="container" id="myDIV" style="display:none">
+
+            <div class="chat-background">
+                <img src="images/boxynine.png" alt="Arrangement of chairs" width="400" height="" class="bubble1">
                 <p class="bubble1">I found these chairs online. Maybe we could model them for the room?</p>
                 <p class="bubble2">Sure.</p>
             </div>
 
-
             <div class="note">
-            <p class="bubble">I found this similar image online. Perhaps I could use this to figure out
-                something?
-            </p>
-            <img src="images/chairs2.png" alt="chairs in a column" width="650" height="" class="image-align">
+                 <img src="images/note1.png" alt="chairs in a column" width="700" height="" class="author">
             </div>
+
+        </div>
+
         </div>
 
 
@@ -63,21 +64,25 @@
 
             <!-- 1 7 -->
 
-            <div id="myDIV2" class="chat-background" style="display:none">
+        <div id="myDIV2" style="display:none">
+
+            <div  class="chat-background">
                 <img src="images/wordpuzzle.png" alt="Arrangement of chairs" width="350" height="" class="bubble1">
                 <p class="bubble1">Check out this font I found! We could use it for the project.</p>
                 <p class="bubble2">I like that font.</p>
             </div>
 
 
-            <div class="note">
+            <div class="note" id="spinContainer">
             <p class="bubble">In the same text chain, I saw these 4 deleted photos. I wonder what they mean...
             </p>
-            <img src="images/bottomleft.png" alt="chairs in a column" width="100" height="" class="image-align">
+            <img src="images/bottomleft.png" alt="chairs in a column" width="100" height="" class="image-align" id="spinImage">
             <img src="images/topright.png" alt="chairs in a column" width="95" height="" class="image-align">
             <img src="images/topleft.png" alt="chairs in a column" width="125" height="" class="image-align">
             <img src="images/bottomright.png" alt="chairs in a column" width="125" height="" class="image-align">
             <img src="images/heart.png" alt="chairs in a column" width="50" height="" class="image-align">
+            </div>
+
             </div>
         </div>
 
@@ -87,7 +92,9 @@
             <button onclick="myFunction3()" class="button">New Message: I'll send...</button>
             <!-- ? -->
 
-            <div id="myDIV3" class="chat-background" style="display:none">
+            <div id="myDIV3" style="display:none">
+
+            <div class="chat-background" >
                 <p class="bubble1">I'll send it to you right now.</p>
                 <img src="images/colorwheel.png" alt="Arrangement of chairs" width="400" height="" class="bubble1">
                 <p class="bubble1">Wait, I sent the wrong file.</p>
@@ -97,13 +104,14 @@
 
 
             <div class="note">
-            <p>I thought these sent files were noteworthy. I'll need to figure out what the second one is really labeled...
-            </p>
+            <img src="images/note3.png" alt="Arrangement of chairs" width="700" height="" class="author">
             </div>
+
+            </div>
+
         </div>
 
     </div>
-
 
     </div>
 
@@ -111,6 +119,7 @@
 
     <!-- maybe make the backgrounds color match as you scroll -->
     <script src="chatroomClick.js" defer></script>
+ <script src="spinClick.js" defer></script>
 
 </body>
 
