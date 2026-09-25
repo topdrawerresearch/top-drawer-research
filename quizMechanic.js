@@ -141,7 +141,7 @@ function showResults() {
       ${quiz.questions.map((q, i) => {
         const isCorrect = selected[i] === q.correctIndex;
         return `<li>
-          ${isCorrect ? "✅" : "❌"} Question ${i + 1}
+          Question ${i + 1}
         </li>`;
       }).join("")}
     </ol>
