@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+   font-family: 'Courier New';
   background: #7571b9;
   margin: 0;
   padding: 20px;
@@ -50,6 +50,7 @@ h1 {
   display: grid;
   gap: 10px;
   margin: 12px 0 14px;
+  
 }
 
 .choice {

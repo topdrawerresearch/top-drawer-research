@@ -45,8 +45,8 @@
     },
     {
       "id": 8,
-      "question": "waht color?",
-      "choices": ["green", "blue", "red", "yellow"],
+      "question": "Even in this wilderness, it is often refreshing to see other life.",
+      "choices": ["In the berries.", "In the water.", "In the sky.", "In the trees."],
       "correctIndex": 1
     }
   ]
