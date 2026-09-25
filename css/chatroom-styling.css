@@ -49,14 +49,13 @@ h1 {
     margin-bottom: 10px;
 }
 
-.spinImage{
-  transform: rotate(0deg);
-  transition: transform 1s linear;
+.rotate {
+    margin: 100px auto;
+    transition: transform 0.5s ease;
 }
 
-.spinImage.open{
-  transform: rotate(180deg);
-  transition: transform 1s linear;
+.rotate:hover {
+    transform: rotate(90deg);
 }
 
 .puzzle3 {
